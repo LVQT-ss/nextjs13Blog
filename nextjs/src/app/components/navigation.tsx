@@ -31,12 +31,12 @@ export const Navigation = () => {
       >
         Product 1
       </Link>
-      {/* <SignedOut>
+      <SignedOut>
         <SignInButton mode="modal" />
       </SignedOut>
       <SignedIn>
         <UserButton />
-      </SignedIn> */}
+      </SignedIn>
     </nav>
   );
 };
